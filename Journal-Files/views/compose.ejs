@@ -1,0 +1,37 @@
+<!-- module.exports= newBlog; -->
+
+<%- include("partials/header"); %>
+
+<H1>Compose</H1>
+
+<form method="POST" name="newForm" action="/compose" class="mb-3">
+  <div class="mb-3">
+    <label class="form-label">Title</label>
+    <textarea
+      class="form-control"
+      id="titleBox"
+      type="text"
+      name="newBlogTitle"
+      rows="1"
+    ></textarea>
+  </div>
+  <br>
+  <div class="mb-3">
+    <label  class="form-label">Post</label>
+    <textarea
+      class="form-control"
+      id="contentBox"
+      type="text"
+      name="newBlogContent"
+      rows="3"
+    ></textarea>
+  </div>
+  <br>
+ 
+    <button class="btn" name="submitButton" type="submit">
+      PUBLISH
+    </button>
+
+</form>
+
+<%- include("partials/footer"); %>
