@@ -8,6 +8,11 @@ body{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+.container-box{
+    width: 60%;
+    margin: auto;
+}
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
